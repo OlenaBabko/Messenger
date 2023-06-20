@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import flowersImg from "../file/photo/flowers_for_messenger_4.jpg";
 
 // Створюємо компонент "Сторінка", який відповідає за оболонку сторінки
 export default function Page({ children }) {
@@ -14,7 +15,10 @@ export default function Page({ children }) {
 
 // Елемент "Вікно" надає стилізацію для вікна, в якому генерується інтерфейс
 const Window = styled.div`
-    background-color: #151515;      /* фон вікна */
+    /* background-color: #151515;      фон вікна */
+    background-image: url(${flowersImg});
+    background-position: center;
+    background-size: cover;
 `;
 
 // Елемент "Відображення" надає формат відображення інтерфейсу
