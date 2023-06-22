@@ -12,10 +12,10 @@ import ChatList from "../component/ChatList";
 // ============================================
 // Імпортуємо картинки
 import CatPhoto from "../file/photo/cat.jpg";
-import WhoPhoto from "../file/photo/who.jpg";
-import PryamoiPhoto from "../file/photo/pryamoi.jpg";
-import EspresoPhoto from "../file/photo/espreso.jpg";
-import FamilyPhoto from "../file/photo/family.jpg";
+import WhoPhoto from "../file/photo/who1.jpg";
+import PryamoiPhoto from "../file/photo/pryamoi1.jpg";
+import EspresoPhoto from "../file/photo/espreso1.jpg";
+import FamilyPhoto from "../file/photo/family1.jpg";
 
 // ============================================
 // Генеруємо константи, в яких тримаємо дані про список чатів
